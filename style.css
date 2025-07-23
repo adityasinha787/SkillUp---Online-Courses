@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.9;
+  padding: 20px;
+}
+
+.hero {
+  background-color: #007bff;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.about {
+  background-color: #fff;
+  margin: 30px auto;
+  padding: 25px;
+  width: 80vw;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.enroll {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.enroll button {
+  background-color: #ffc107;
+  border: none;
+  padding: 10px 25px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.enroll button:hover{
+  background-color:  #e0a800;;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.card {
+  width: 40vw;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.test {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.test h2 {
+  padding-top: 30px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 40px 15px;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  width: 40vw;
+  background-color: white;
+  padding: 25px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.pricing {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.pricing h2 {
+  margin-bottom: 20px;
+}
+
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.plan {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  transition: all 0.3s ease; 
+  box-shadow: 0 0 0 transparent; 
+}
+
+.plan:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.plan ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.basic { width: 150px; }
+.pro { width: 200px; }
+.premium { width: 250px; }
+
+.basic:hover { border-color: #6c757d; }
+.pro:hover { border-color: #17a2b8; }
+.premium:hover { border-color: #28a745; }
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+footer a {
+  color: #ffc107;
+  margin: 0 10px;
+  text-decoration: none;
+}
